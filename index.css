@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+img {
+  width: 299px;
+  height: auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card {
+  width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.img-creator {
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.img-emerald {
+  height: 16px;
+  width: 8px;
+}
+.img-clock {
+  height: 16px;
+  width: 16px;
+}
+.card-info {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: space-between;
+}
+.card-info-left {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
+  column-gap: 10px;
+}
+.card-info-right {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
+  column-gap: 10px;
+}
+.creator {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  column-gap: 10px;
+  border-top: 1px solid hsl(215, 51%, 70%);
+  padding: 15px 0;
+  align-items: center;
+}
+.emerald {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.title {
+  color: white;
+  font-size: x-large;
+}
+.sub-title {
+  color: hsl(215, 51%, 70%);
+}
+.text {
+  color: hsl(215, 51%, 70%);
+}
+.name-of-creator {
+  color: hsl(215, 51%, 70%);
+}
+.surname-of-creator {
+  color: white;
+}
